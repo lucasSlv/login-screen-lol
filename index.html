@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="https://lolstatic-a.akamaihd.net/rso-login-page/3.2.27/assets/favicon.ico">
+
+    <title>Riot Games</title>
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="wrapper">
+                <img src="./images/logo.png" class="login__logo">
+        
+                <h1 class="login__title">Fazer login</h1>
+            
+                <label class="login__label">
+                  <span>nome de usuário</span>
+                  <input type="text" name="username" class="input">
+                </label>
+          
+                <label class="login__label">
+                  <span>senha</span>
+                  <input type="password" name="password" class="input">
+                </label>
+          
+                <div class="login__icons">
+                  <button type="button" class="icons__button">
+                    <img src="./images/facebook-icon.png" alt="facebok">
+                  </button>
+          
+                  <button type="button" class="icons__button">
+                    <img src="./images/google-icon.png" alt="facebok">
+                  </button>
+          
+                  <button type="button" class="icons__button">
+                    <img src="./images/apple-icon.png" alt="facebok">
+                  </button>
+                </div>
+          
+                <label class="login__label--checkbox">
+                  <input type="checkbox" class="input--checkbox">
+                  Manter login
+                </label>
+            </div>
+        
+            <div class="wrapper">
+                <button type="button" class="login__button" disabled>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
+                    </svg>
+                </button>
+        
+                <a href="#" class="login__link">não consegue iniciar sessão?</a>
+                <a href="#" class="login__link">criar conta</a>
+            </div>
+        </section>
+
+        <section class="wallpaper">
+          <header class="header__wallpaper">
+            <svg width="58" height="57" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="29" width="40" height="40" rx="4" transform="rotate(45 29 0)" fill="#D950E5"/>
+            <path d="M31.2549 16.8281L30.707 33.6123H26.7227L26.1582 16.8281H31.2549ZM26.0254 38.8086C26.0254 38.1003 26.2689 37.5137 26.7559 37.0488C27.2539 36.5729 27.9069 36.335 28.7148 36.335C29.5339 36.335 30.1868 36.5729 30.6738 37.0488C31.1608 37.5137 31.4043 38.1003 31.4043 38.8086C31.4043 39.4948 31.1608 40.0758 30.6738 40.5518C30.1868 41.0277 29.5339 41.2656 28.7148 41.2656C27.9069 41.2656 27.2539 41.0277 26.7559 40.5518C26.2689 40.0758 26.0254 39.4948 26.0254 38.8086Z" fill="black"/>
+            </svg>
+            <button type="button" class="profile__button" disable>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"/>
+              </svg>
+            </button>
+          </header>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
